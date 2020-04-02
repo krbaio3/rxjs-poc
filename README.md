@@ -24,4 +24,10 @@ Por defecto, el puerto que configuré para este proyecto es el ```8081```, pero 
 
 Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicamente graban los cambios antes de ejecutar el ```npm start``` nuevamente)
 
+## Indice
 
+### Observables
+
+    - 01-observables: crear observables y observer
+    - 02-observables: desubscripcion de un observable, que pasa si no hacemos el clearInterval
+    - 03-observables: encadenar observables (subscripciones) sobre uno, para desuscribirse de todos a la vez.

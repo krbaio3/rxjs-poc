@@ -14,7 +14,7 @@ const interval$ = new Observable<number>(subscriber => {
     }, 1000);
 
     setTimeout(()=> {
-       subscriber.complete();
+        subscriber.complete();
     }, 2500);
 
     // Si no le ponemos el `return`, se nos va al infinito ejecutando el setInterval,
