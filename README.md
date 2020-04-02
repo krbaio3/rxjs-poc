@@ -36,4 +36,5 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 06-subject: subscripcion sincrona de un observable y vemos como se completa todo el flujo.
     - 07-of: observable con operador of.
     - 08-fromEvent: observable a partir de eventos.
+    - 09-range: observable con range; distintos ejemplos.
 
