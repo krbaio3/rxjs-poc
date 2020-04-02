@@ -28,6 +28,10 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
 
 ### Observables
 
-    - 01-observables: crear observables y observer
-    - 02-observables: desubscripcion de un observable, que pasa si no hacemos el clearInterval
-    - 03-observables: encadenar observables (subscripciones) sobre uno, para desuscribirse de todos a la vez.
+    - 01-observables: crear observables y observer.
+    - 02-observables: desubscripcion de un observable, que pasa si no hacemos el clearInterval.
+    - 03-observables: encadenar observables (subscripciones) sobre uno, para desuscribirse de todos a la vez.    
+    - 04-subject: subscripcion asincrona de un observable, pero el flujo por detras sigue y lo vemos.
+    - 05-subject: subscripcion sincrona de un observable, pero el flujo por detras sigue funcionando aunque no se vea.
+    - 06-subject: subscripcion sincrona de un observable y vemos como se completa todo el flujo.
+
