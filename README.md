@@ -34,4 +34,6 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 04-subject: subscripcion asincrona de un observable, pero el flujo por detras sigue y lo vemos.
     - 05-subject: subscripcion sincrona de un observable, pero el flujo por detras sigue funcionando aunque no se vea.
     - 06-subject: subscripcion sincrona de un observable y vemos como se completa todo el flujo.
+    - 07-of: observable con operador of.
+    - 08-fromEvent: observable a partir de eventos.
 

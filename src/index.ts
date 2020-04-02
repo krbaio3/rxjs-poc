@@ -1,1 +1,1 @@
-import './observables/06-subject';
+import './observables/08-fromEvent';
