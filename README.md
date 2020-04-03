@@ -43,4 +43,7 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 13-timer: ejecucion dado un periodo y completado.
     - 14-timer: ejecucion que se inicia dado un tiempo y ejecutado dado un periodo.
     - 15-timer: programamos cuando queremos que se emita y se complete el observable.
+    - 16-asyncScheduler: ejemplo basico emulando un setTime.
+    - 17-asyncScheduler: ejemplo basico emulando un setInterval.
+    - 18-asyncScheduler: ejemplo 17 con unsubscribe en un asyncScheduler.
 
