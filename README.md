@@ -37,4 +37,10 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 07-of: observable con operador of.
     - 08-fromEvent: observable a partir de eventos.
     - 09-range: observable con range; distintos ejemplos.
+    - 10-interval: ejecucion de un observable cada x periodo.
+    - 11-interval: ejecucion tan pronto pueda ejecutarlo la cola de JS.
+    - 12-interval: ejecucion tan pronto pueda ejecutarlo la cola de JS, pero ejecuta el complete.
+    - 13-timer: ejecucion dado un periodo y completado.
+    - 14-timer: ejecucion que se inicia dado un tiempo y ejecutado dado un periodo.
+    - 15-timer: programamos cuando queremos que se emita y se complete el observable.
 

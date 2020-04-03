@@ -6,17 +6,29 @@
     "webpack": "^4.40.2",
     "webpack-dev-server": "^3.8.1"
   },
-  "description": "",
+  "description": "* Lo primero que debemos de hacer después de descargar el código es ejecutar el comando:",
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "ts-loader": "^6.1.2",
-    "css-loader": "^3.2.0",
     "webpack-cli": "^3.3.9"
   },
   "license": "ISC",
   "main": "index.js",
   "name": "rxjs-dev",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --port=8081"
+    "start": "webpack-dev-server --mode development --open --port=8081",
+    "build": "webpack --mode production",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krbaio3/rxjs-poc.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/krbaio3/rxjs-poc/issues"
+  },
+  "homepage": "https://github.com/krbaio3/rxjs-poc#readme"
 }
