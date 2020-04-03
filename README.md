@@ -46,4 +46,5 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 16-asyncScheduler: ejemplo basico emulando un setTime.
     - 17-asyncScheduler: ejemplo basico emulando un setInterval.
     - 18-asyncScheduler: ejemplo 17 con unsubscribe en un asyncScheduler.
+    - 19-of-from: distintos ejemplos con of y from.
 
