@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e92cdaa0-8fa4-4418-8606-714b899c2f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/observables/19-of-from.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/01-map.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/02-pluck.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
@@ -35,13 +36,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/observables" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/operators" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/operators" />
       <recent name="$PROJECT_DIR$/src/observables" />
     </key>
   </component>

@@ -48,3 +48,7 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 18-asyncScheduler: ejemplo 17 con unsubscribe en un asyncScheduler.
     - 19-of-from: distintos ejemplos con of y from.
 
+### Operadores
+
+    - 01-map: tratamiento de salida de observable, hace un map de js pero en rxjs
+    - 02-pluck: selecciona una propiedad del objeto de salida para que se trate.
