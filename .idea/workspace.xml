@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e92cdaa0-8fa4-4418-8606-714b899c2f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/operators/05-tap.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/laboratory/01-laboratory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratory/01-laboratory.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +86,10 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="466" y="156" width="424" height="480" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1585763067247" />
-    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict" timestamp="1585926839659">
+    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict" timestamp="1586253462749">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585926839659" />
+    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586253462749" />
     <state x="298" y="62" key="SettingsEditor" timestamp="1585826983400">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -105,9 +103,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="766" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585925459665" />
-    <state x="321" y="121" width="724" height="554" key="find.popup" timestamp="1585755279461">
-      <screen x="0" y="28" width="1366" height="740" />
+    <state x="301" y="101" width="679" height="599" key="find.popup" timestamp="1586250244126">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="301" y="101" width="679" height="599" key="find.popup/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586250244126" />
     <state x="321" y="121" width="724" height="554" key="find.popup/0.28.1366.740@0.28.1366.740" timestamp="1585755279461" />
     <state x="607" y="177" key="run.anything.popup" timestamp="1585764662876">
       <screen x="0" y="28" width="1366" height="740" />

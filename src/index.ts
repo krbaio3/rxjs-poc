@@ -1,1 +1,1 @@
-import './operators/05-tap';
+import './laboratory/01-laboratory';
