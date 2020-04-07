@@ -1,1 +1,1 @@
-import './operators/06-reduce';
+import './operators/07-scan';
