@@ -1,1 +1,1 @@
-import './laboratory/01-laboratory';
+import './operators/06-reduce';
