@@ -1,1 +1,1 @@
-import './operators/07-scan';
+import './operators/08-take';

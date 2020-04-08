@@ -55,3 +55,9 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 03-mapTo: convierte una entrada del observable en un valor fijo cada vez que se emite
     - 04-filter: filtra la entrada de datos y si cumple la condicion deja pasar los datos.
     - 05-tap: permite ejecutar acciones entre operaciones de observables. Muy bueno para debug
+    - 06-reduce: funciona como el reduce de ECMAScript6. El valor lo emite al final de la subscripcion
+    - 07-scan: funciona como el `reduce`, pero con la salvedad que cuando los valores son emitidos por nuestro 
+    observable, va emitiendo el valor del acumulado
+    - 08-take: limita la cantidad de emisiones que un observable puede tener.
+
+    
