@@ -77,6 +77,10 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 02-debounceTime: ejemplo con un input que por ejemplo hace peticiones http
     - 03-throttleTime: justo cuando emite el valor, empieza a contar el tiempo indicado hasta emitir el siguiente valor,
     pero si en ese tiempo el observable ha emitido valores (dentro del tiempo indicado) los ignora
-
+    - 04-throttleTime: indicamos 
+    - 05-sampleTime: ultimo valor emitido en un periodo de timepo
+    - 06-sample: emite el ultimo valor emitido por el observable hasta que se emita un nuevo valor (2 observables)
+    - 07-auditTime: emite el ultimo valor emitido por el observable por un periodo de tiempo
+    
     
     
