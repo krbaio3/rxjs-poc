@@ -65,4 +65,8 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 11-takeUntil: sigue emitiendo y recibiendo valores hasta que el segundo observable emita su primer valor
     - 12-skip: saltar u omitir X de emisiones iniciales
     - 13-distinct: emite valores siempre y cuando sean distintos al ya emitido.
-    
+    - 14-distinct: ejemplo de como hace la comparacion con el ===.
+    - 15-distinctUntilChanged: emite valores siempre y cuando sean distintos al valor anterior.
+    - 16-distinctUntilKeyChanged: es el mismo concepto que distinctUntilChanged pero como argumento se le pasa una
+    propiedad del objeto para comparar
+
