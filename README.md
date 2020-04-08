@@ -62,5 +62,7 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 09-fist: coge el primer valor y se completa, y al agregarle una condicion que se cumple por primera vez 
     la condicion, se para la emision de valores.
     - 10-takeWhile: recibe valores mientras la condicion se cumpla.
-    
+    - 11-takeUntil: sigue emitiendo y recibiendo valores hasta que el segundo observable emita su primer valor
+    - 12-skip: saltar u omitir X de emisiones iniciales
+    - 13-distinct: emite valores siempre y cuando sean distintos al ya emitido.
     

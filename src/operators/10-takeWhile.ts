@@ -16,8 +16,8 @@ click$
         takeWhile(({y})=>( y <= 150))
     )
     .subscribe({
-    next: value => console.log('[next]', value),
-    complete: () => console.log('[complete]')
+        next: value => console.log('[next]', value),
+        complete: () => console.log('[complete]')
 });
 
 // Agregando la propiedad inclusive podemos hacer que nos emita el valir que le
