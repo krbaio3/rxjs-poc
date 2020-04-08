@@ -59,5 +59,6 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 07-scan: funciona como el `reduce`, pero con la salvedad que cuando los valores son emitidos por nuestro 
     observable, va emitiendo el valor del acumulado
     - 08-take: limita la cantidad de emisiones que un observable puede tener.
-
+    - 09-fist: coge el primer valor y se completa, y al agregarle una condicion que se cumple por primera vez 
+    la condicion, se para la emision de valores.
     
