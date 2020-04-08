@@ -61,4 +61,6 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 08-take: limita la cantidad de emisiones que un observable puede tener.
     - 09-fist: coge el primer valor y se completa, y al agregarle una condicion que se cumple por primera vez 
     la condicion, se para la emision de valores.
+    - 10-takeWhile: recibe valores mientras la condicion se cumpla.
+    
     
