@@ -70,3 +70,13 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 16-distinctUntilKeyChanged: es el mismo concepto que distinctUntilChanged pero como argumento se le pasa una
     propiedad del objeto para comparar
 
+### Operadores de Tiempo
+
+    - 01-debounceTime: podemos contar las milesimas de segundo desde la ultima emision, si sobrepasan el valor que indicamos,
+    emitiran el valor
+    - 02-debounceTime: ejemplo con un input que por ejemplo hace peticiones http
+    - 03-throttleTime: justo cuando emite el valor, empieza a contar el tiempo indicado hasta emitir el siguiente valor,
+    pero si en ese tiempo el observable ha emitido valores (dentro del tiempo indicado) los ignora
+
+    
+    
