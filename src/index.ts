@@ -1,1 +1,1 @@
-import './time-operators/07-auditTime';
+import './ajax/02.4-getJSON';
