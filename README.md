@@ -82,5 +82,16 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 06-sample: emite el ultimo valor emitido por el observable hasta que se emita un nuevo valor (2 observables)
     - 07-auditTime: emite el ultimo valor emitido por el observable por un periodo de tiempo
     
-    
-    
+ ### Peticiones Ajax
+ 
+    - 01.1-ajax-catchError: Se implementa un ejemplo con el fetch de ES6. Camino feliz 
+    - 01.2-ajax-catchError: Se implementa un ejemplo con el fetch de ES6 pero con fallo. Viendo el problema que genera el
+    como trata las peticiones http.
+    - 01.3-ajax-catchError: Se implementa el codigo anterior pero con observables. Camino feliz.
+    - 01.4-ajax-catchError: Se implementa el codigo anteror pero con una url que da fallo, y ser personaliza la salida 
+    que nos da la captura del error.
+    - 02.1-getJSON: peticion basica ajax que directamente nos la convierte a JSON
+    - 02.2-getJSON: fallo de peticiones porque no manejan el error  
+    - 02.3-getJSON: manejando errores con catchError
+    - 02.4-getJSON: manejando errores desde el observer del subscribe. Diferencia entre ambos.
+    - 03-methods-http: construccion de llamadas http con la propiedad ajax

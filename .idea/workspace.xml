@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e92cdaa0-8fa4-4418-8606-714b899c2f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/time-operators/05-sampleTime.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time-operators/06-sample.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time-operators/07-auditTime.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ajax/03-methods-http.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
@@ -37,16 +35,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/time-operators" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ajax" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ajax" />
       <recent name="$PROJECT_DIR$/src/time-operators" />
       <recent name="$PROJECT_DIR$/src/operators" />
       <recent name="$PROJECT_DIR$/src/observables" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -66,6 +68,8 @@
       <workItem from="1585826810272" duration="2085000" />
       <workItem from="1586095321142" duration="1710000" />
       <workItem from="1586345171348" duration="13912000" />
+      <workItem from="1586435023025" duration="124000" />
+      <workItem from="1586446271717" duration="2943000" />
     </task>
     <servers />
   </component>
@@ -76,9 +80,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585763100877">
-      <screen x="0" y="28" width="1366" height="740" />
+    <state x="132" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586432600261">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="132" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586432600261" />
     <state x="141" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1366.740@0.28.1366.740" timestamp="1585763100877" />
     <state x="370" y="190" width="616" height="412" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585762947133">
       <screen x="0" y="28" width="1366" height="740" />
@@ -101,6 +106,10 @@
     </state>
     <state x="298" y="62" key="SettingsEditor/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585826983400" />
     <state x="172" y="33" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1585761422531" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586433504146">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586433504146" />
     <state x="601" y="66" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585766531193">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -118,10 +127,10 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="607" y="177" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1585764662876" />
-    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1586374598049">
+    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1586447483006">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586374598049" />
+    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586447483006" />
     <state x="346" y="89" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1585755882962" />
   </component>
 </project>
