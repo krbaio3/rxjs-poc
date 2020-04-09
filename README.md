@@ -94,3 +94,4 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 02.2-getJSON: fallo de peticiones porque no manejan el error  
     - 02.3-getJSON: manejando errores con catchError
     - 02.4-getJSON: manejando errores desde el observer del subscribe. Diferencia entre ambos.
+    - 03-methods-http: construccion de llamadas http con la propiedad ajax

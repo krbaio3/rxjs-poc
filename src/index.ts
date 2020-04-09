@@ -1,1 +1,1 @@
-import './ajax/02.4-getJSON';
+import './ajax/03-methods-http';
