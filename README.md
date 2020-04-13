@@ -95,3 +95,20 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 02.3-getJSON: manejando errores con catchError
     - 02.4-getJSON: manejando errores desde el observer del subscribe. Diferencia entre ambos.
     - 03-methods-http: construccion de llamadas http con la propiedad ajax
+
+### Operadores de Transformacion
+
+    - 01-megeAll: Ejemplo de llamada al API de github pero sin uso de mergeAll
+    - 02-megeAll: Ejemplo de llamada al API de github usando el mergeAll para aplanar toda la salida de la API
+    - 03-megeAll: Ejemplo de llamada al API de github usando el mergeAll para aplanar toda la salida de la API
+    - 04.1-megeMap: Recibe el valor de nuestro observable inicial, y devuelve una subscripcion a otro observable
+    - 04.2-megeMap: Ejemplo que el mergeMap se subscribe al evento interval
+    - 04.3-megeMap: Ejemplo de llamada http con aplanamiento de datos, no es recomendable, porque se envia todo 
+    lo que hay en el input
+    - 5.1-swichMap: Es como el mergeMap, pero cuando se subscribe a un nuevo observable, cancela la subscripcion
+    anterior
+    - 5.2-switchMap: Comparacion entre switchMap - mergeMap
+    - 6-concatMap: Parecido al mergeAll. concatena el ultimo valor emitido cuando el observable anterior se 
+    complete. Lo pone en una cola a la espera de que se resuelva el observable anterior.
+    - 7-exhaustMap: Mantiene una subscripcion activa (emitiendo valores) antes de agregar otra subscripcion. Si
+    se intentan agregar mas subscriciones mientras haya una activa, las nuevas subscripciones son ignoradas. 

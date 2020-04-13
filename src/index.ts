@@ -1,1 +1,1 @@
-import './ajax/03-methods-http';
+import './laboratory/02-laboratory';
