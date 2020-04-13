@@ -105,10 +105,33 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
     - 04.2-megeMap: Ejemplo que el mergeMap se subscribe al evento interval
     - 04.3-megeMap: Ejemplo de llamada http con aplanamiento de datos, no es recomendable, porque se envia todo 
     lo que hay en el input
-    - 5.1-swichMap: Es como el mergeMap, pero cuando se subscribe a un nuevo observable, cancela la subscripcion
+    - 05.1-swichMap: Es como el mergeMap, pero cuando se subscribe a un nuevo observable, cancela la subscripcion
     anterior
-    - 5.2-switchMap: Comparacion entre switchMap - mergeMap
-    - 6-concatMap: Parecido al mergeAll. concatena el ultimo valor emitido cuando el observable anterior se 
+    - 05.2-switchMap: Comparacion entre switchMap - mergeMap
+    - 06-concatMap: Parecido al mergeAll. concatena el ultimo valor emitido cuando el observable anterior se 
     complete. Lo pone en una cola a la espera de que se resuelva el observable anterior.
-    - 7-exhaustMap: Mantiene una subscripcion activa (emitiendo valores) antes de agregar otra subscripcion. Si
+    - 07-exhaustMap: Mantiene una subscripcion activa (emitiendo valores) antes de agregar otra subscripcion. Si
     se intentan agregar mas subscriciones mientras haya una activa, las nuevas subscripciones son ignoradas. 
+
+### Operadores y combinacion de Observables
+
+    - 01-startWith: hace que se emita como primer valor/es el parametro que se le pase como argumento.
+    - 02-endWith: hace que se emita como ultimo valor/es el parametro que se le pase como argumento.
+    - 03-concat (funcion): la funcion concat (el observable concat esta deprecado), concatena observables
+    siempre y cuando se vayan completando.
+    - 04-merge (funcion): la funcion merge (el observable merge esta deprecado), muestra la salida de dos observables 
+    segun vayan emitiendo datos. Hasta que no esten los dos completados, el observable (producto del merge de los dos)
+    no se completa
+    - 05-combineLatest: combina el ultimo valor de cada observable, enviados en un array, se completa cuando se 
+    completen los dos, si uno no se completa y sigue emitiendo valores, los lanza con el ultimo valor emitido del
+    observable completado.
+    - 06-forkJoin: Debe de ser finito, por lo que cuando se complenten los obs$ que se pasan como argumento, emite el 
+    valor de los tres observables en un array o en un objeto. Array por defecto.
+
+
+### Laboratory
+
+    - 01-laboratory: Ejercicio de scroll y barra superior marcando cuando queda de texto
+    - 02-laboratory: Ejercicio de llamada ajax y aplanamiento de operaciones.
+    - 03-laboratory: Ejercicio con un simple loading (startWith, endWith)
+    - 04-laboratory: Ejercicio forkJoin y peticiones ajax

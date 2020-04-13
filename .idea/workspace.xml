@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e92cdaa0-8fa4-4418-8606-714b899c2f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers/mostrarUsuarios.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/peticionHttpLogin.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laboratory/02-laboratory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/github.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/userPass.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/01-mergeAll.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/02-mergeAll.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/03-mergeAll.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/04.1-mergeMap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/04.2-mergeMap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/04.3-mergeMap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/05.1-switchMap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/05.2-switchMap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/06-concatMap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/07-exhaustMap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/01-startWith.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/02-endWith.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/03-concat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/04-merge.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/05-combineLatest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/06-forkJoin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/getInputstream.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory/03-laboratory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laboratory/04-laboratory.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +45,21 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/transform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/laboratory" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/laboratory" />
+      <recent name="$PROJECT_DIR$/src/combination" />
       <recent name="$PROJECT_DIR$/src/transform" />
       <recent name="$PROJECT_DIR$/src/ajax" />
       <recent name="$PROJECT_DIR$/src/time-operators" />
-      <recent name="$PROJECT_DIR$/src/operators" />
-      <recent name="$PROJECT_DIR$/src/observables" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -86,7 +81,7 @@
       <workItem from="1586345171348" duration="13912000" />
       <workItem from="1586435023025" duration="124000" />
       <workItem from="1586446271717" duration="29765000" />
-      <workItem from="1586770310277" duration="2331000" />
+      <workItem from="1586770310277" duration="12960000" />
     </task>
     <servers />
   </component>
@@ -114,10 +109,10 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="466" y="156" width="424" height="480" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1585763067247" />
-    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict" timestamp="1586253462749">
+    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict" timestamp="1586776028398">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586253462749" />
+    <state x="0" y="0" width="1280" height="800" key="FileDocumentManager.FileCacheConflict/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586776028398" />
     <state x="14" y="35" width="900" height="722" key="SettingsEditor" timestamp="1586691375417">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -148,10 +143,10 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="607" y="177" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1585764662876" />
-    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1586544545834">
+    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1586792257231">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586544545834" />
+    <state x="324" y="66" width="670" height="676" key="search.everywhere.popup/-381.-1080.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1586792257231" />
     <state x="346" y="89" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1585755882962" />
   </component>
 </project>
